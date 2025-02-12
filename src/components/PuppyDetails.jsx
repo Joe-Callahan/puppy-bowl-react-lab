@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom'
 
 const PuppyDetails = (props) => {
-
-  console.log(props.selectedPuppy);
+  
   return(
     <>
       <h1>{props.selectedPuppy.name}</h1>

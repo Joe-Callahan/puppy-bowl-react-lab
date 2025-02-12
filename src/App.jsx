@@ -12,7 +12,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Homepage setSelectedPuppy={setSelectedPuppy} />} />
         <Route path={`/details/${selectedPuppy.id}`} element={ <PuppyDetails selectedPuppy={selectedPuppy} />} />
-        <Route path='/add' element={<AddAPuppy />} />
+        <Route path='/add' element={<AddAPuppy selectedPuppy={selectedPuppy} />} />
       </Routes>
     </>
   )
