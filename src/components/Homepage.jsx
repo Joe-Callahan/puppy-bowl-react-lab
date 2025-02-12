@@ -16,6 +16,7 @@ const Homepage = (props) => {
   return (
     <>
       <h1>Puppy Bowl</h1>
+      <Link to='/add'>Add A New Puppy</Link>
       <div id='homeContainerDisplay'>
         {
           allPuppies.map((singlePuppy) => {
